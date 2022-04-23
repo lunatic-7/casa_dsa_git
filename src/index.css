@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bgst-dark {
+  background-color: #333;
+}
+
+.bgst-light {
+  background-color: #f2f2f2;
+}
+
+.accordbgst-dark {
+  background-color: #333;
+}
+
+.accordion-item {
+  box-shadow: 5px 5px 10px #9E9E9E;
+}
+
+.ft {
+  box-shadow: 5px 5px 10px 10px #111;
+}
+
+.navbar {
+  box-shadow: 1px 5px 5px #9E9E9E;
+  opacity: 0.8;
+}
+
+.nav-link:hover {
+  color: #000;
+  text-decoration:underline;
+  text-shadow: 2px 3px 4px  #999;
+  font-weight: bold;
+
+}
+
+.img-fluid {
+  box-shadow: 5px 5px 10px 10px #9E9E9E;
+  margin-bottom: 2em;
+  opacity: 0.4;
+  transform: translateY(-150%);
+  animation: about-text-animation_3 1s ease-in-out forwards;
+}
+
+@keyframes about-text-animation_3 {
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.img-fluid:hover {
+  opacity: 0.9;
+}
+
+#text {
+  margin-top: 1rem;
+  width: 100%;
+  box-shadow: 2px 2px 10px 5px #9E9E9E;
+  transform: translateX(150%);
+  animation: about-text-animation 1s ease-in-out forwards;
+}
+
+@keyframes about-text-animation {
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.image {
+  margin-top: 1rem;
+  box-shadow: 5px 5px 10px #9E9E9E;
+  opacity: 0.9;
+  height: 100%;
+  width: 90%;
+  transform: translateX(-150%);
+  animation: about-text-animation 1s ease-in-out forwards;
+}
+
+#image:hover {
+  opacity: 0.5;
+}
+
+.aStyle {
+  text-decoration: none;
+}
+
+.weight {
+  font-weight: normal;
+}
+
+.weight:hover {
+  font-weight: bold;
+}
+
+.list-group-item:hover {
+  font-weight: bold;
+}
+
+.list-group {
+  box-shadow: 5px 5px 10px #9E9E9E;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  width: 77%;
+  transform: translate(+150%,-150%);
+  animation: about-text-animation_2 1s ease-in-out forwards;
+}
+
+@keyframes about-text-animation_2 {
+  100% {
+    transform: translate(0,0);
+  }
+}
